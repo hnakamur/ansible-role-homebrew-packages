@@ -11,7 +11,11 @@ Install Ansible and homebrew.
 Role Variables
 --------------
 
-None.
+- homebrew_packages_taps
+    - an array of homebrew taps
+- homebrew_packages_pacakges
+    - an array of hashes for homebrew pacakges.
+    - each hash has key name (mandatory), state (optional, default is latest), and install_options
 
 Dependencies
 ------------
