@@ -15,6 +15,7 @@ homebrew_packages_packages:
   - { name: mercurial }
   - { name: mysql }
   - { name: packer }
+  - { name: phantomjs }
   - { name: pkg-config }
   - { name: pwgen }
   - { name: redis }
