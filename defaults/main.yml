@@ -4,6 +4,8 @@ homebrew_packages_taps:
   - homebrew/dupes
 
 homebrew_packages_packages:
+  - { name: autoconf }
+  - { name: automake }
   - { name: cmake }
   - { name: ctags }
   - { name: docker }
